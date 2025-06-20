@@ -16,38 +16,32 @@ Developed as part of an academic mini project, the tool calculates water usage b
 
 ---
 
-## 📁 Project Structure
+## 📸 Screenshot
 
-| File / Folder          | Description                                         |
-|------------------------|-----------------------------------------------------|
-| `index.html`           | Main homepage explaining water types                |
-| `login.html`           | Login page (interface only)                         |
-| `calculator.html`      | Calculator interface for computing water usage      |
-| `styles.css`           | Custom CSS styling                                  |
-| `model.js`             | JavaScript logic related to data/model processing   |
-| `script.js`            | UI event handling and interactivity                 |
-| `water_footprint.csv`  | Dataset used for calculations                       |
-| `image/`               | Folder containing background image (`mp.jpeg`)      |
-| `img1.png`             | additional image                      |
+![Homepage](output.png)
+
+> Make sure `img1.png` is in the same folder as this `README.md` file  
+> Or update the path if your image is in a subfolder like `images/`
 
 ---
 
-## 🧠 What is Water Footprint?
+## 📊 Technologies Used
 
-### 🔹 **Blue Water**
-Fresh surface and groundwater used for irrigation and domestic purposes.
-
-### 🟢 **Green Water**
-Rainwater stored in soil that is directly used by plants.
-
-### 🟠 **Grey Water**
-Volume of freshwater required to dilute pollutants to meet water quality standards.
+- HTML5, CSS3, JavaScript  
+- Bootstrap 5  
+- Font Awesome  
+- CSV-based data processing  
 
 ---
 
-## 🚀 How to Use
+## 👩‍💻 Developer
 
-1. **Download or clone this repository**:
-   ```bash
-   git clone https://github.com/yourusername/Smart-Water-Footprint-Calculator.git
-   cd Smart-Water-Footprint-Calculator
+**Manasa B M**  
+Computer Science Engineering  
+REVA University  
+📍 Bangalore, India  
+📧 bmm065839@gmail.com  
+📞 +91 77952 77441  
+🔗 [LinkedIn](https://www.linkedin.com/in/manasa-bm-a09524300)
+
+---
