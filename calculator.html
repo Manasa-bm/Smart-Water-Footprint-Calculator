@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Water Footprint Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.21.0/dist/tf.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container py-5">
+        <header class="text-center mb-5 animate__animated animate__fadeIn">
+            <h1 class="display-4 fw-bold">
+                <i class="fas fa-tint me-2"></i>Smart Water Footprint Calculator
+            </h1>
+            <p class="lead text-muted">Optimize water usage for sustainable agriculture with AI-powered insights</p>
+            <button class="btn btn-outline-danger btn-sm" id="logoutBtn">Logout</button>
+        </header>
+
+        <div class="card shadow-lg animate__animated animate__fadeInUp">
+            <div class="card-header bg-white">
+                <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="calculator-tab" data-bs-toggle="pill" data-bs-target="#calculator" type="button">
+                            <i class="fas fa-calculator me-2"></i>Water Analysis
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="compare-tab" data-bs-toggle="pill" data-bs-target="#compare" type="button">
+                            <i class="fas fa-balance-scale me-2"></i>Compare Crops
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="insights-tab" data-bs-toggle="pill" data-bs-target="#insights" type="button">
+                            <i class="fas fa-chart-line me-2"></i>Water Insights
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="card-body">
+                <div class="tab-content" id="myTabContent">
+                    <!-- Calculator Tab -->
+                    <div class="tab-pane fade show active" id="calculator" role="tabpanel">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="sticky-top" style="top: 20px;">
+                                    <div class="card mb-4">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><i class="fas fa-seedling me-2"></i>Water Footprint Analysis</h5>
+                                            <form id="waterForm">
+                                                <div class="mb-3">
+                                                    <label for="cropType" class="form-label">Select Crop</label>
+                                                    <select class="form-select" id="cropType" required>
+                                                        <option value="">Choose a crop...</option>
+                                                        <option value="Rice">Rice</option>
+                                                        <option value="Wheat">Wheat</option>
+                                                        <option value="Maize">Maize</option>
+                                                        <option value="Cotton">Cotton</option>
+                                                    </select>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="region" class="form-label">Region</label>
+                                                        <select class="form-select" id="region" required>
+                                                            <option value="">Select region...</option>
+                                                            <option value="North America">North America</option>
+                                                            <option value="Africa">Africa</option>
+                                                            <option value="Europe">Europe</option>
+                                                            <option value="Asia">Asia</option>
+                                                            <option value="South America">South America</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="area" class="form-label">Area (hectares)</label>
+                                                        <input type="number" class="form-control" id="area" min="0.1" step="0.1" value="1" required>
+                                                    </div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        <i class="fas fa-brain me-2"></i>Predict Water Footprint
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card" id="resultsCard" style="display: none;">
+                                        <div class="card-header bg-primary text-white">
+                                            <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Water Footprint Results</h5>
+                                        </div>
+                                        <div class="card-body" id="results"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-7">
+                                <div class="card mb-4" id="cropInfoCard" style="display: none;">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="" alt="Crop Image" class="crop-image img-fluid rounded" id="cropImage">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <h3 id="cropName"></h3>
+                                                <p class="text-muted" id="cropDescription"></p>
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <div class="me-3">
+                                                        <small class="text-muted">Total Growth Duration</small>
+                                                        <h5 class="mb-0" id="growthDuration"></h5>
+                                                    </div>
+                                                    <div>
+                                                        <small class="text-muted">Water Sensitivity</small>
+                                                        <div class="progress-water">
+                                                            <div class="progress-water-bar" id="waterSensitivity"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="card" id="cultivationGuide" style="display: none;">
+                                    <div class="card-header bg-success text-white">
+                                        <h5 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>Cultivation Timeline & Water Needs</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="growth-timeline" id="growthStages"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="card mt-4" id="waterTips" style="display: none;">
+                                    <div class="card-header bg-info text-white">
+                                        <h5 class="mb-0"><i class="fas fa-lightbulb me-2"></i>Water Saving Tips</h5>
+                                    </div>
+                                    <div class="card-body" id="savingTips"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Compare Tab -->
+                    <div class="tab-pane fade" id="compare" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="card mb-4">
+                                    <div class="card-header bg-info text-white">
+                                        <h5 class="mb-0"><i class="fas fa-plus-circle me-2"></i>Add Comparison</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <form id="compareForm">
+                                            <div class="mb-3">
+                                                <label class="form-label">Select Crop</label>
+                                                <select class="form-select" id="compareCrop" required>
+                                                    <option value="">Choose a crop...</option>
+                                                    <option value="Rice">Rice</option>
+                                                    <option value="Wheat">Wheat</option>
+                                                    <option value="Maize">Maize</option>
+                                                    <option value="Cotton">Cotton</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Select Region</label>
+                                                <select class="form-select" id="compareRegion" required>
+                                                    <option value="">Select region...</option>
+                                                    <option value="North America">North America</option>
+                                                    <option value="Africa">Africa</option>
+                                                    <option value="Europe">Europe</option>
+                                                    <option value="Asia">Asia</option>
+                                                    <option value="South America">South America</option>
+                                                </select>
+                                            </div>
+                                            <div class="d-grid gap-2">
+                                                <button type="button" id="addCompare" class="btn btn-info">
+                                                    <i class="fas fa-plus me-2"></i>Add to Comparison
+                                                </button>
+                                                <button type="button" id="clearCompare" class="btn btn-secondary">
+                                                    <i class="fas fa-trash me-2"></i>Clear Comparison
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card h-100">
+                                    <div class="card-header bg-success text-white">
+                                        <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Water Footprint Comparison</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="compareChart" height="300"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Insights Tab -->
+                    <div class="tab-pane fade" id="insights" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-header bg-warning text-dark">
+                                        <h5 class="mb-0"><i class="fas fa-lightbulb me-2"></i>Key Water Insights</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="alert alert-info">
+                                            <i class="fas fa-info-circle me-2"></i>
+                                            <strong>Agriculture accounts for 70% of global freshwater withdrawals</strong>
+                                        </div>
+                                        <div class="list-group">
+                                            <div class="list-group-item border-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="stage-icon me-3">
+                                                        <i class="fas fa-rice"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="mb-1">Rice has the highest blue water footprint</h6>
+                                                        <small class="text-muted">Requires 2-3 times more water than other cereals</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-group-item border-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="stage-icon me-3">
+                                                        <i class="fas fa-tshirt"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="mb-1">Cotton is water intensive</h6>
+                                                        <small class="text-muted">~2,500L water needed per cotton T-shirt</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-group-item border-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="stage-icon me-3">
+                                                        <i class="fas fa-tint-slash"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="mb-1">Efficient irrigation saves water</h6>
+                                                        <small class="text-muted">Drip irrigation can reduce water use by 30-60%</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col-md-6 mb-4">
+    <div class="card h-100">
+        <div class="card-header bg-danger text-white">
+            <h5 class="mb-0">
+                <i class="fas fa-globe-asia me-2"></i>Global Water Stress
+            </h5>
+        </div>
+        <div class="card-body">
+            <!-- Static World Map Image -->
+            <div class="mb-3" style="height: 250px; border-radius: 8px; overflow: hidden;">
+                <img src="img1.png" 
+                     alt="Global Water Stress Map" 
+                     style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+            </div>
+
+            <!-- Stress Levels -->
+            <div class="row text-center">
+                <div class="col-4">
+                    <div class="p-2 bg-light rounded">
+                        <small class="d-block text-muted">High Stress</small>
+                        <span class="fw-bold text-danger">17 Countries</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-2 bg-light rounded">
+                        <small class="d-block text-muted">Medium Stress</small>
+                        <span class="fw-bold text-warning">44 Countries</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-2 bg-light rounded">
+                        <small class="d-block text-muted">Low Stress</small>
+                        <span class="fw-bold text-success">82 Countries</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        <div class="card">
+                            <div class="card-header bg-secondary text-white">
+                                <h5 class="mb-0"><i class="fas fa-table me-2"></i>Crop Water Footprint Data</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Crop</th>
+                                                <th>Green Water (L/kg)</th>
+                                                <th>Blue Water (L/kg)</th>
+                                                <th>Grey Water (L/kg)</th>
+                                                <th>Total (L/kg)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="cropData"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-5 text-center text-muted small">
+            <p>Smart Water Footprint Calculator © 2025 | Sustainable Agriculture Initiative</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="model.js"></script>
+</body>
+</html>

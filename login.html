@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Water Footprint - Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    body {
+      background: url('image/mp.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.4);
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .content-wrapper {
+      position: relative;
+      z-index: 2;
+    }
+
+    .header-title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      margin-bottom: 30px;
+    }
+
+    .login-card {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100 content-wrapper">
+    
+    <!-- Title -->
+    <div class="header-title animate__animated animate__fadeInDown">
+      SMART WATER FOOTPRINT CALCULATOR
+    </div>
+
+    <!-- Login card -->
+    <div class="card p-4 shadow-lg animate__animated animate__fadeIn login-card" style="max-width: 400px; width: 100%;">
+      <h2 class="text-center mb-4">Login</h2>
+      <form id="loginForm">
+        <div class="mb-3">
+          <label for="farmerid" class="form-label">Farmer ID</label>
+          <input type="text" class="form-control" id="farmerid" required placeholder="Enter your Farmer ID">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" required placeholder="Enter your password">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="rememberMe">
+          <label class="form-check-label" for="rememberMe">Remember me</label>
+        </div>
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+        <div class="text-center mt-3">
+          <a href="#" class="text-muted small">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

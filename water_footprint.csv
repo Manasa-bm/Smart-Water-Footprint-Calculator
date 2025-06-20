@@ -1,0 +1,1001 @@
+crop,green_water,blue_water,grey_water,region,area_hectares
+Rice,1566,2410,696,North America,8.15
+Maize,1176,1521,610,Africa,4.57
+Cotton,7429,11499,2325,North America,8.23
+Maize,1376,1719,588,Africa,7.06
+Rice,1578,2369,756,South America,7.94
+Wheat,1133,1669,663,North America,2.82
+Wheat,1067,1386,555,Europe,8.19
+Wheat,1044,1463,548,Europe,9.02
+Wheat,1203,1505,601,Europe,1.53
+Wheat,1190,1503,559,Europe,7.53
+Maize,1083,1267,468,North America,4.54
+Maize,1136,1434,528,Asia,4.95
+Wheat,1136,1598,656,Europe,2.9
+Rice,1628,2200,734,South America,8.07
+Cotton,7713,11600,2540,Asia,1.8
+Cotton,8167,12270,2581,Asia,2.45
+Wheat,1208,1867,664,Asia,2.84
+Maize,1058,1323,469,Asia,2.23
+Wheat,1170,1353,626,Europe,6.33
+Cotton,8454,11005,2262,South America,9.17
+Wheat,1451,2034,922,Africa,9.88
+Wheat,1601,2010,772,Africa,1.44
+Maize,992,1428,451,South America,5.98
+Wheat,1006,1606,551,Europe,1.1
+Cotton,6866,10740,2143,Europe,5.78
+Cotton,8193,12633,2234,Asia,6.34
+Maize,1051,1236,448,South America,2.89
+Rice,1682,2300,772,Asia,7.84
+Rice,1747,2434,817,Asia,1.53
+Rice,2196,2976,961,Africa,6.48
+Rice,2252,2532,1002,Africa,5.01
+Rice,1599,2159,728,Europe,8.32
+Cotton,9052,12250,2294,Asia,2.54
+Maize,854,1248,366,Europe,8.17
+Cotton,6649,9418,1806,Europe,6.92
+Wheat,1272,1559,605,North America,6.38
+Maize,911,1307,473,South America,1.05
+Wheat,1177,1630,609,North America,0.77
+Cotton,8322,10576,2270,North America,5.41
+Cotton,7758,10296,2288,North America,5.87
+Maize,974,1087,396,Europe,5.04
+Maize,954,1293,391,Europe,8.66
+Rice,1719,2101,727,North America,2.36
+Cotton,8707,11349,2438,Asia,4.67
+Wheat,1252,1511,693,North America,7.32
+Rice,1765,2592,910,Asia,0.72
+Cotton,7307,11972,2077,South America,2.01
+Rice,1755,2200,700,South America,2.77
+Rice,1550,1977,734,Europe,1.3
+Maize,1071,1359,475,North America,9.1
+Wheat,1112,1495,556,Europe,5.47
+Maize,933,1372,473,North America,4.95
+Maize,1035,1428,462,Asia,7.16
+Wheat,1013,1629,597,Europe,8.42
+Wheat,1239,1854,698,Asia,3.87
+Rice,1507,2278,710,North America,3.97
+Maize,1015,1347,426,South America,2.53
+Rice,1446,2109,649,Europe,7.09
+Rice,1368,1875,734,Europe,0.51
+Wheat,1663,2164,763,Africa,1.41
+Wheat,1101,1601,607,Europe,4.66
+Cotton,8924,13009,2306,Asia,3.18
+Rice,1460,2121,728,Europe,1.92
+Rice,1574,1931,722,Europe,8.77
+Maize,1383,1580,527,Africa,3.27
+Wheat,1305,1530,609,North America,4.57
+Maize,1166,1532,510,Asia,7.14
+Wheat,1402,1790,716,Asia,9.94
+Cotton,7282,10050,2255,South America,2.96
+Wheat,1150,1517,552,Europe,8.92
+Cotton,8563,13032,2332,Asia,2.39
+Wheat,1122,1504,623,South America,1.68
+Wheat,1060,1444,578,Europe,1.37
+Cotton,7089,9280,1963,Europe,4.58
+Rice,1415,2028,699,Europe,6.28
+Rice,1730,2013,811,North America,7.21
+Maize,1365,1617,522,Africa,6.89
+Rice,1758,2420,833,North America,6.51
+Maize,1346,1645,506,Africa,0.8
+Cotton,7858,11927,2370,South America,9.53
+Wheat,1339,1840,726,Asia,8.74
+Cotton,7254,10706,2270,South America,0.58
+Wheat,1290,1608,652,North America,1.93
+Rice,1843,2230,860,Asia,5.67
+Wheat,1621,2301,761,Africa,9.83
+Cotton,9548,14817,2837,Africa,3
+Cotton,7275,12003,2323,North America,8.18
+Maize,1152,1840,506,Africa,7.31
+Wheat,1235,1494,605,South America,8.82
+Maize,953,1230,471,South America,4.23
+Maize,1066,1396,469,Asia,4.11
+Rice,2307,2895,999,Africa,7.27
+Maize,1031,1358,470,North America,8.96
+Cotton,7563,12067,2246,South America,5.65
+Rice,1954,2623,844,Asia,9.83
+Wheat,1191,1812,675,Asia,1.1
+Cotton,7630,11720,2368,South America,8.95
+Maize,1020,1248,401,South America,8.57
+Cotton,7321,11946,2235,South America,8.77
+Maize,914,1296,457,South America,1
+Maize,956,1090,417,Europe,9.02
+Maize,1039,1428,458,North America,9.11
+Rice,1548,1807,756,Europe,7
+Cotton,8162,11887,2183,North America,1.19
+Wheat,1687,1931,841,Africa,7.62
+Maize,1008,1443,460,Asia,4.31
+Rice,1614,2055,727,Europe,4.96
+Wheat,1238,1549,650,South America,8.48
+Rice,1457,2059,721,Europe,2.14
+Maize,936,1313,400,North America,8.83
+Maize,840,1105,402,Europe,5.81
+Maize,929,1201,391,Europe,4.21
+Rice,1549,2124,711,South America,4.88
+Maize,1264,1786,553,Africa,6.57
+Maize,998,1412,448,South America,5.95
+Wheat,1282,1734,705,Asia,5.66
+Maize,903,1355,435,North America,3.63
+Rice,1758,2584,848,Asia,1.1
+Wheat,1104,1367,622,Europe,1.65
+Rice,1629,2623,921,Asia,5.54
+Cotton,8069,10470,2147,North America,5.3
+Wheat,1572,2303,793,Africa,8.06
+Cotton,8211,11518,2488,Asia,6.42
+Rice,1979,2539,1012,Africa,5.29
+Wheat,1109,1756,629,North America,5.71
+Rice,1548,2195,763,South America,2.35
+Cotton,7982,12080,2376,North America,7.23
+Wheat,1400,2230,837,Africa,5.97
+Maize,982,1398,466,North America,3.72
+Rice,2109,3068,922,Africa,3.65
+Wheat,1520,1985,793,Africa,8.63
+Cotton,8151,12422,2626,Asia,9.73
+Rice,1644,1981,750,South America,1.39
+Rice,1523,2358,823,North America,6.85
+Cotton,10113,13399,2766,Africa,5.48
+Wheat,1347,1713,676,Asia,2.65
+Rice,1362,2062,709,Europe,6.36
+Maize,988,1313,436,North America,3.13
+Cotton,7421,11403,2316,North America,5.62
+Cotton,7228,10876,2039,Europe,6.61
+Rice,1635,2345,728,North America,3.57
+Maize,900,1317,388,Europe,7.18
+Maize,1276,1661,564,Africa,9.14
+Cotton,6418,9298,2154,Europe,9.89
+Wheat,1404,1734,748,Asia,3.92
+Maize,1192,1596,574,Africa,7.87
+Rice,1612,2369,815,North America,0.61
+Cotton,8390,11533,2323,North America,2.71
+Rice,1642,2292,718,South America,7.2
+Cotton,6577,10703,1838,Europe,7.2
+Rice,1936,2176,792,Asia,9.96
+Cotton,8162,11020,2235,South America,7.38
+Maize,1159,1420,444,Asia,1.73
+Maize,1181,1569,539,Africa,3.05
+Rice,2130,2556,884,Africa,7.06
+Cotton,8145,11118,2030,North America,4.02
+Rice,1591,1974,642,Europe,8.26
+Wheat,1254,1633,598,North America,6.96
+Wheat,1210,1797,649,Asia,4.17
+Cotton,10673,13304,2752,Africa,6.55
+Cotton,7171,9797,1918,Europe,9.88
+Wheat,1094,1412,652,Europe,5.72
+Rice,1683,2339,774,North America,1.92
+Rice,1656,2278,795,North America,3.17
+Wheat,1387,1932,692,Asia,6.7
+Cotton,7717,12937,2233,Asia,4.97
+Maize,1060,1302,423,South America,7.89
+Maize,1003,1191,456,North America,6.17
+Cotton,6307,10620,2131,Europe,3.82
+Rice,1526,2367,821,North America,1.36
+Wheat,1589,1972,767,Africa,2.39
+Rice,1788,2360,807,South America,1.9
+Cotton,7551,10099,1874,Europe,5.06
+Wheat,1629,2018,757,Africa,7.67
+Wheat,1189,1566,634,North America,7.13
+Rice,1604,2101,744,Europe,5.13
+Rice,1881,2528,867,Asia,8.69
+Wheat,1029,1502,567,Europe,7.42
+Wheat,1104,1701,619,South America,7.82
+Maize,969,1386,411,South America,7.62
+Rice,1744,2196,735,North America,8.66
+Rice,2280,2535,956,Africa,7.78
+Wheat,1278,1527,705,North America,1.71
+Cotton,9812,14884,3014,Africa,6.5
+Wheat,1238,1720,700,Asia,5.79
+Rice,2205,2658,978,Africa,5.88
+Rice,1788,2225,732,North America,4.58
+Maize,832,1249,425,Europe,8.74
+Rice,1411,2143,640,Europe,8.53
+Rice,1780,2319,710,North America,1.43
+Rice,1602,2160,725,Europe,7.65
+Cotton,6545,10763,1977,Europe,1.69
+Wheat,1284,1575,706,South America,3.29
+Cotton,7987,11907,2358,North America,9.27
+Wheat,1242,1846,745,Asia,8.76
+Cotton,9269,14285,2616,Africa,9.95
+Wheat,1204,1512,691,North America,1.01
+Cotton,9451,14744,2864,Africa,2.84
+Rice,1476,2059,719,Europe,3.67
+Cotton,7909,11110,2003,North America,5.18
+Cotton,7070,10819,2181,Europe,0.9
+Rice,1743,2335,768,Asia,7.31
+Maize,1262,1589,564,Africa,1.65
+Cotton,8256,11438,2021,North America,4.89
+Cotton,7564,11509,2262,Asia,2.59
+Rice,1602,2036,735,Europe,5.31
+Rice,2202,2899,960,Africa,3.5
+Rice,1656,2160,779,North America,9.64
+Rice,1615,2030,754,Europe,9.26
+Maize,864,1277,399,Europe,2.34
+Rice,1614,1958,676,Europe,1.26
+Wheat,1111,1740,618,North America,6.77
+Wheat,1311,1564,656,North America,5.26
+Rice,1813,2295,829,North America,2.48
+Cotton,6971,10870,2148,Europe,3.77
+Wheat,1406,1653,656,Asia,5.26
+Wheat,1677,1985,833,Africa,1.57
+Rice,1582,2162,702,North America,3
+Maize,985,1311,420,South America,2.94
+Cotton,6653,10651,2095,Europe,0.85
+Maize,1146,1582,523,Asia,8.1
+Rice,1524,2105,799,North America,8.06
+Maize,1078,1306,436,Asia,2.4
+Cotton,7237,10090,1872,Europe,5.11
+Wheat,1264,1670,663,Asia,2.19
+Maize,1036,1225,466,South America,8.25
+Rice,1458,1945,656,Europe,7.85
+Rice,1785,2281,870,Asia,9.03
+Wheat,1009,1506,655,Europe,5.96
+Cotton,6315,10819,2114,Europe,5.48
+Cotton,7028,9448,1936,Europe,3.26
+Maize,822,1166,418,Europe,9.78
+Wheat,1198,1629,653,Europe,9.57
+Maize,966,1335,466,South America,1.84
+Cotton,10465,14257,2952,Africa,1.78
+Cotton,7172,9424,2020,Europe,9.92
+Maize,822,1194,413,Europe,1.15
+Cotton,7982,10654,2384,North America,8.08
+Maize,913,1431,415,South America,8.06
+Rice,2104,2846,882,Africa,0.83
+Wheat,1366,1906,726,Asia,8.63
+Maize,1379,1843,586,Africa,8.39
+Rice,1454,1844,717,Europe,5.26
+Cotton,8337,11654,2530,Asia,8.45
+Cotton,7576,9900,1926,Europe,5.32
+Cotton,7930,11362,2254,Asia,1.19
+Cotton,8622,12982,2500,Asia,5.79
+Wheat,1272,1790,750,Asia,8.95
+Wheat,1547,1962,820,Africa,4.85
+Rice,1822,2205,895,Asia,9.64
+Maize,1246,1846,553,Africa,2.95
+Cotton,9591,14274,2717,Africa,2.96
+Cotton,8442,11848,2502,Asia,7.44
+Maize,872,1276,378,Europe,2.96
+Cotton,8064,11789,2127,North America,8.33
+Rice,1435,2016,710,Europe,2.04
+Wheat,1321,1742,689,North America,1.2
+Maize,820,1165,395,Europe,8.43
+Rice,1491,2003,787,South America,2.53
+Cotton,6890,10370,2190,Europe,0.73
+Wheat,1215,1848,673,Asia,0.77
+Rice,1873,2553,862,Asia,0.85
+Cotton,7190,9917,2205,South America,1.7
+Rice,1802,2052,818,North America,3.03
+Wheat,1228,1633,614,South America,3.22
+Cotton,7487,10657,2297,North America,8.18
+Maize,1038,1435,442,North America,9.09
+Rice,1366,1933,637,Europe,8.22
+Maize,916,1425,431,North America,6.6
+Cotton,8251,10325,2029,North America,4.78
+Wheat,1582,2233,863,Africa,1.85
+Cotton,7407,11922,2237,South America,8.42
+Maize,1352,1519,529,Africa,8.07
+Maize,930,1359,434,South America,0.9
+Wheat,1425,1696,736,Asia,3.59
+Wheat,1415,2171,784,Africa,4.45
+Wheat,1298,1807,666,Asia,7.78
+Rice,2233,2749,1045,Africa,6.74
+Rice,1799,2318,840,South America,6.47
+Rice,1520,2403,739,South America,1.89
+Rice,1688,2311,920,Asia,9.97
+Wheat,1099,1611,612,Europe,3.32
+Wheat,1142,1534,589,Europe,4.73
+Maize,828,1147,422,Europe,8.55
+Cotton,6598,9304,1835,Europe,6.92
+Wheat,1150,1736,627,North America,5.84
+Rice,1756,2017,833,South America,9.72
+Maize,910,1254,382,Europe,2.86
+Wheat,1231,1626,786,Asia,4.78
+Wheat,1273,1691,658,South America,2.82
+Rice,1714,2381,727,South America,6.26
+Rice,1486,2116,831,South America,7.75
+Maize,971,1313,421,North America,7.35
+Cotton,8679,12201,2472,Asia,4.93
+Wheat,1312,1634,729,Asia,4.32
+Maize,914,1340,440,North America,8.5
+Wheat,1523,2133,796,Africa,8.77
+Cotton,10340,15244,2535,Africa,5.74
+Cotton,7611,12364,2532,Asia,7.82
+Cotton,9096,11098,2205,Asia,4.11
+Maize,1023,1358,484,South America,2.86
+Maize,811,1102,371,Europe,6.61
+Rice,1717,2391,844,North America,1.46
+Cotton,8923,11624,2478,Asia,0.58
+Cotton,10046,13301,2578,Africa,9.44
+Wheat,1314,1692,769,Asia,4.22
+Wheat,1137,1657,697,North America,2.9
+Wheat,1404,2231,852,Africa,0.95
+Rice,1452,1957,668,Europe,6.18
+Rice,1415,1823,738,Europe,5.98
+Cotton,8103,10344,2372,South America,2.17
+Cotton,8906,14883,3017,Africa,5.72
+Cotton,8917,10860,2316,Asia,6.21
+Maize,1056,1419,447,North America,2.54
+Rice,1989,2569,898,Africa,9.71
+Maize,934,1081,432,Europe,2.54
+Rice,1633,2530,805,Asia,4.98
+Wheat,1207,1416,540,Europe,5.3
+Wheat,1198,1734,758,Asia,2.14
+Wheat,1542,2303,768,Africa,7.43
+Wheat,1377,1851,734,Asia,9.96
+Cotton,6941,10521,2245,South America,4.02
+Maize,909,1386,471,South America,5.71
+Rice,1764,2302,698,North America,2.3
+Maize,977,1279,422,Europe,4.18
+Cotton,7229,9915,2141,South America,9.58
+Maize,993,1474,465,Asia,0.64
+Wheat,1517,2188,778,Africa,1.79
+Wheat,1180,1508,636,North America,9.51
+Rice,1704,2400,760,Asia,5.22
+Wheat,1306,1526,724,North America,4.19
+Cotton,9066,10897,2330,Asia,7.14
+Maize,986,1296,429,North America,5.91
+Cotton,8126,11985,2209,North America,4.61
+Cotton,8386,11750,2044,North America,2.54
+Cotton,8594,11886,2200,Asia,2.91
+Rice,1791,2532,880,Asia,1.01
+Wheat,1295,1535,710,North America,5.79
+Rice,1647,2158,735,Europe,3.49
+Wheat,1300,1764,712,Asia,8.21
+Cotton,7474,12064,2369,North America,3.05
+Maize,1102,1544,445,Asia,3.44
+Cotton,8221,10153,2284,North America,9.72
+Maize,1030,1232,462,North America,3.24
+Cotton,7553,11706,2337,South America,1.24
+Maize,895,1200,484,South America,9.45
+Maize,831,1318,432,Europe,9.7
+Maize,1006,1348,451,South America,3.36
+Maize,1054,1482,513,Asia,1
+Rice,1758,2270,695,North America,7.59
+Maize,1042,1411,453,Asia,8.68
+Rice,1996,2552,953,Africa,2.94
+Maize,1061,1433,470,North America,1.24
+Wheat,1104,1426,558,Europe,3.36
+Rice,1727,2212,713,North America,4.48
+Maize,980,1408,484,South America,2.55
+Cotton,6658,10540,2093,Europe,5.97
+Maize,862,1271,431,Europe,4.44
+Wheat,1650,2301,909,Africa,9.92
+Rice,1796,2171,715,South America,8.82
+Cotton,9115,11916,2416,Asia,7.38
+Wheat,1244,1852,692,Asia,7.34
+Maize,1230,1807,525,Africa,7.06
+Maize,1085,1335,397,South America,9.55
+Cotton,8308,11386,2151,South America,9
+Wheat,1415,2308,856,Africa,9.16
+Rice,1740,2304,785,North America,9.37
+Cotton,8398,11349,2498,Asia,1.19
+Rice,1678,2548,891,Asia,3.9
+Wheat,1227,1645,668,South America,2.9
+Cotton,6548,9981,2047,Europe,1.07
+Wheat,1278,1684,667,North America,7.56
+Wheat,1321,1644,730,Asia,5.25
+Rice,1630,2085,722,South America,2.46
+Wheat,1441,1812,781,Asia,1.94
+Wheat,1619,2112,837,Africa,9.77
+Rice,2087,2951,951,Africa,4.29
+Wheat,1202,1756,613,South America,6.02
+Cotton,9597,14215,2583,Africa,1.68
+Cotton,9050,13032,2527,Asia,1.6
+Maize,892,1088,393,Europe,4.47
+Rice,1398,2043,666,Europe,9
+Rice,1743,2380,748,North America,1.95
+Wheat,1230,1487,601,North America,2.6
+Wheat,1136,1533,706,North America,5.44
+Cotton,7097,9416,2186,Europe,6.31
+Cotton,8775,11103,2635,Asia,7.42
+Cotton,7648,10968,2162,South America,5.16
+Wheat,1241,1699,643,North America,0.68
+Maize,839,1262,396,Europe,6
+Rice,1937,2527,1072,Africa,2.08
+Rice,1631,2116,716,Europe,3.31
+Maize,1023,1405,449,South America,3.73
+Rice,1420,1889,707,Europe,4.23
+Cotton,8208,11044,2516,Asia,1.68
+Maize,1138,1335,519,Asia,1.2
+Rice,1406,2127,740,Europe,4.13
+Wheat,1278,1774,714,Asia,7.2
+Cotton,7772,10419,2183,South America,7.1
+Rice,2220,2543,1058,Africa,2.56
+Maize,980,1359,475,South America,5.23
+Rice,1689,2083,726,North America,8.66
+Wheat,1314,1780,788,Asia,9.56
+Wheat,1377,1813,732,Asia,3.87
+Wheat,1095,1379,618,Europe,9.8
+Wheat,1486,2242,785,Africa,6.43
+Cotton,7266,11464,2061,South America,5.39
+Cotton,6619,9154,2146,Europe,1.26
+Rice,2185,2735,1075,Africa,8.01
+Rice,1904,2611,904,Asia,7.39
+Maize,953,1202,380,Europe,9.37
+Maize,920,1282,463,North America,3.65
+Maize,1027,1296,454,Asia,7.84
+Wheat,1191,1655,702,North America,1.26
+Maize,1174,1604,572,Africa,3.13
+Maize,891,1122,374,Europe,4.33
+Maize,1191,1743,596,Africa,2.76
+Rice,1749,2036,715,North America,4.27
+Maize,1261,1628,534,Africa,1.38
+Maize,988,1442,421,South America,8.03
+Wheat,1146,1630,623,South America,3.58
+Cotton,10294,14231,2868,Africa,6.02
+Wheat,1446,1743,734,Asia,6.76
+Cotton,10619,15105,2563,Africa,9.74
+Cotton,7564,10841,1968,Europe,7.79
+Cotton,10325,12633,2580,Africa,5.01
+Maize,1032,1450,514,Asia,6.98
+Cotton,7201,10040,1981,North America,4.86
+Maize,981,1114,388,Europe,0.91
+Maize,1272,1639,515,Africa,4.91
+Maize,1005,1254,427,North America,8.26
+Maize,972,1419,524,Asia,4.67
+Cotton,6326,9322,2002,Europe,9.55
+Wheat,1145,1452,560,Europe,2.69
+Wheat,1264,1694,650,Asia,4.39
+Maize,1053,1391,433,North America,5.87
+Rice,1761,2245,883,Asia,2.73
+Wheat,1431,1785,714,Asia,7.31
+Rice,1582,1985,720,Europe,0.94
+Wheat,1241,1607,674,South America,2.61
+Maize,1052,1291,446,South America,0.8
+Rice,1355,2124,700,Europe,4.44
+Cotton,6982,10145,1897,Europe,2.41
+Rice,1607,2261,807,North America,4.54
+Cotton,7552,10916,2238,South America,8.26
+Rice,1752,2312,811,South America,0.92
+Cotton,8241,11484,2248,South America,2.17
+Rice,1975,2891,1012,Africa,4.69
+Rice,1380,1847,733,Europe,2.92
+Wheat,1238,1615,690,South America,9.21
+Cotton,6936,11427,2117,North America,8.82
+Wheat,1598,2307,777,Africa,4.82
+Rice,1581,2047,789,North America,4.14
+Cotton,7715,11810,2187,North America,5.24
+Wheat,1232,1848,672,Asia,9.91
+Cotton,6934,10382,2137,South America,9.86
+Maize,1282,1580,574,Africa,5.71
+Maize,882,1131,370,Europe,6.98
+Cotton,10644,13342,2735,Africa,5.71
+Rice,1776,2210,842,Asia,2.36
+Wheat,1488,2258,777,Africa,5.57
+Maize,1355,1794,534,Africa,5.05
+Rice,1975,2292,770,Asia,5.56
+Maize,1159,1580,551,Africa,2.46
+Wheat,1306,1656,601,North America,2.98
+Rice,1474,2072,670,Europe,3.57
+Cotton,7033,11480,2208,South America,5.96
+Cotton,10567,13897,2594,Africa,6.46
+Rice,1751,2143,733,North America,7.15
+Wheat,1394,1741,682,Asia,8.48
+Wheat,1070,1629,597,Europe,6.03
+Rice,1690,2247,749,North America,5.54
+Wheat,1633,1933,902,Africa,6.46
+Wheat,1394,2181,845,Africa,5.91
+Wheat,1262,1579,674,South America,8.53
+Wheat,1594,2118,791,Africa,5.55
+Wheat,1495,1915,805,Africa,2.69
+Cotton,6533,10131,1849,Europe,8.97
+Maize,1063,1471,457,Asia,4.31
+Cotton,6502,9655,1826,Europe,3.23
+Cotton,6959,10840,1846,Europe,7.5
+Rice,1651,2050,825,North America,4.5
+Wheat,1383,1840,680,Asia,4.51
+Rice,1424,2073,683,Europe,2.48
+Maize,844,1135,400,Europe,2.65
+Cotton,10669,15215,2963,Africa,6.02
+Wheat,1371,1680,786,Asia,5.46
+Maize,1083,1466,508,Asia,5.91
+Rice,2202,2688,1073,Africa,7
+Maize,1269,1565,597,Africa,3.33
+Wheat,1169,1653,598,North America,4.67
+Rice,1980,2253,826,Asia,6.39
+Maize,974,1339,443,North America,1.41
+Cotton,9795,15294,2924,Africa,4.98
+Maize,1067,1315,401,South America,5.54
+Rice,1590,2346,774,North America,3.64
+Rice,1769,2061,738,South America,4.61
+Maize,979,1214,471,South America,6.96
+Cotton,6980,10781,1992,South America,7.44
+Wheat,1296,1806,616,North America,7.82
+Rice,1691,2305,772,North America,0.76
+Cotton,7126,10094,2183,South America,6.72
+Wheat,1328,1635,654,Asia,1.98
+Wheat,1104,1705,711,South America,2.1
+Maize,886,1246,394,Europe,2.37
+Wheat,1005,1590,608,Europe,1.54
+Cotton,9333,14315,2686,Africa,4.79
+Cotton,10007,15258,2822,Africa,5.42
+Wheat,1684,1924,816,Africa,2.34
+Rice,1526,2286,766,South America,6.25
+Wheat,1066,1524,610,Europe,8.94
+Wheat,1677,2070,823,Africa,4.86
+Wheat,1257,1640,714,Asia,9.47
+Wheat,1134,1433,599,Europe,4.76
+Wheat,1633,1933,835,Africa,0.95
+Maize,849,1302,396,Europe,2.69
+Rice,1947,2246,902,Asia,4.62
+Cotton,7643,11513,2354,North America,0.68
+Cotton,7797,10277,2240,North America,2.81
+Maize,1112,1557,448,Asia,0.77
+Maize,925,1205,415,South America,9.18
+Wheat,1472,2263,807,Africa,6.62
+Cotton,6927,9284,1815,Europe,4.48
+Wheat,1643,2000,824,Africa,1.9
+Wheat,1170,1521,620,Europe,8.17
+Wheat,1145,1625,632,North America,8.08
+Wheat,1227,1798,645,North America,3.38
+Cotton,8044,12795,2541,Asia,6.72
+Cotton,8343,11024,2296,South America,3.47
+Cotton,6762,9989,1875,Europe,3.9
+Cotton,7514,11971,2410,North America,7.94
+Rice,2160,2926,1033,Africa,8.05
+Maize,980,1428,432,North America,8.95
+Cotton,6749,10662,2069,Europe,3.86
+Maize,1077,1532,501,Asia,7.4
+Wheat,1269,1686,666,Asia,5.24
+Rice,1548,2236,783,South America,8.53
+Cotton,8189,10033,2171,South America,2.6
+Maize,925,1452,460,North America,1.67
+Cotton,7778,10952,2406,Asia,9.71
+Cotton,9105,13809,3036,Africa,3.58
+Rice,1718,2073,693,North America,9.3
+Cotton,8105,11972,2234,North America,2.22
+Wheat,1635,2003,880,Africa,2.05
+Wheat,1100,1413,557,Europe,3.77
+Maize,1141,1612,533,Africa,2.27
+Wheat,1408,2029,865,Africa,4.87
+Maize,982,1305,399,South America,2.37
+Maize,1344,1696,503,Africa,6.93
+Rice,1690,2248,794,Asia,1.58
+Maize,1061,1314,482,North America,7.78
+Rice,1912,2867,1026,Africa,1.52
+Wheat,1365,1848,710,Asia,9.48
+Cotton,10374,13020,3007,Africa,9.12
+Rice,2226,3047,995,Africa,8.68
+Rice,1743,2334,695,North America,2.71
+Wheat,1500,2147,823,Africa,5.13
+Rice,1681,2339,728,South America,1.11
+Wheat,1290,1798,730,Asia,5.3
+Cotton,7086,10665,2388,North America,8.13
+Maize,1023,1297,482,Asia,6.34
+Cotton,6965,9765,2139,Europe,7.07
+Cotton,6740,10298,1806,Europe,6.07
+Cotton,6652,9762,2112,Europe,9.67
+Cotton,7376,10344,2035,South America,2.53
+Cotton,9392,13000,2930,Africa,3.13
+Wheat,1250,1498,687,North America,3.44
+Cotton,7805,10017,2311,South America,8.31
+Maize,982,1280,424,North America,8.33
+Wheat,1218,1620,720,South America,3.09
+Wheat,1196,1520,628,South America,5.54
+Wheat,1222,1928,705,Asia,9.96
+Cotton,8452,10986,2188,Asia,7.69
+Maize,1041,1250,475,South America,6.44
+Cotton,7024,10179,2222,South America,0.89
+Maize,1215,1610,509,Africa,0.86
+Rice,1522,2139,784,South America,3.24
+Cotton,7624,10611,1822,Europe,7.91
+Wheat,1380,1786,787,Asia,4.08
+Wheat,1122,1795,611,South America,6.82
+Wheat,1151,1716,712,North America,6.31
+Maize,995,1317,413,South America,8.75
+Cotton,7957,11366,2240,South America,4.92
+Rice,1494,2189,767,North America,9.49
+Wheat,1163,1585,643,Europe,7.79
+Cotton,7555,10443,1814,Europe,7.44
+Maize,987,1223,425,Europe,1.61
+Rice,1891,2425,832,Asia,3.65
+Cotton,6861,10211,2080,Europe,1.09
+Cotton,8201,11155,2084,South America,9.41
+Rice,1513,2206,746,North America,8.1
+Wheat,1309,1820,664,Asia,2.84
+Cotton,7283,10468,2319,North America,5.67
+Maize,972,1570,432,Asia,7.36
+Maize,1150,1350,484,Asia,5.58
+Rice,2100,3033,1059,Africa,9.96
+Rice,1699,2251,735,South America,3.68
+Rice,1529,2335,721,North America,1.36
+Cotton,7827,12009,2488,Asia,6.03
+Cotton,7493,10597,2177,Europe,2.5
+Rice,1620,2168,662,Europe,3.77
+Maize,1163,1576,519,Africa,7.3
+Cotton,7132,11627,2292,South America,5.63
+Wheat,1407,2066,768,Africa,4.62
+Cotton,7674,12290,2451,Asia,2.1
+Maize,972,1344,489,Asia,5.65
+Wheat,1117,1557,626,Europe,7.71
+Maize,1183,1315,496,Asia,3.69
+Rice,2029,3039,949,Africa,6.08
+Maize,954,1317,400,South America,6.3
+Wheat,1153,1564,623,Europe,8.91
+Wheat,1237,1496,724,North America,3.09
+Rice,1576,2327,834,North America,2.11
+Rice,1639,2104,731,North America,6.05
+Maize,855,1148,436,Europe,3.49
+Cotton,7917,13028,2322,Asia,9.03
+Rice,1379,2062,658,Europe,8.56
+Maize,1024,1536,486,Asia,9.77
+Cotton,9459,14033,2665,Africa,7.69
+Cotton,7471,9016,1898,Europe,4.44
+Maize,952,1136,429,Europe,5.7
+Wheat,1053,1523,603,Europe,3.54
+Maize,1216,1835,553,Africa,4.04
+Maize,1144,1471,460,Asia,2.17
+Cotton,8702,11409,2260,Asia,5.58
+Rice,1640,1862,741,Europe,7.77
+Wheat,1194,1824,759,Asia,9.3
+Maize,987,1492,524,Asia,4.04
+Wheat,1012,1544,578,Europe,5.58
+Wheat,1123,1698,634,North America,5.16
+Cotton,8253,12005,2204,South America,2.37
+Maize,1365,1513,560,Africa,3.06
+Wheat,1036,1497,608,Europe,3.96
+Maize,1076,1362,447,North America,3.76
+Wheat,1232,1714,640,North America,7.58
+Cotton,8692,11901,2527,Asia,2.44
+Wheat,1145,1696,610,South America,6.89
+Maize,1310,1805,515,Africa,1.89
+Cotton,7629,11072,2156,South America,6.6
+Cotton,8049,11830,2302,South America,9.76
+Maize,1002,1288,409,South America,6.53
+Rice,1662,2389,755,South America,1.83
+Rice,1786,2245,786,North America,2.32
+Wheat,1447,1992,855,Africa,4.44
+Rice,1641,2400,827,South America,0.55
+Cotton,7100,9665,2129,Europe,6.33
+Wheat,1327,1782,715,North America,4.71
+Cotton,7805,11229,2102,North America,1.31
+Maize,1017,1426,463,South America,0.77
+Maize,1092,1519,493,Asia,5.75
+Wheat,1631,1895,786,Africa,4.53
+Cotton,8809,12889,2637,Asia,9.63
+Maize,1076,1448,431,South America,8.43
+Maize,970,1312,400,Europe,3.43
+Rice,1815,2560,800,Asia,5.6
+Maize,1007,1323,448,South America,1.38
+Rice,1938,2511,848,Asia,4.95
+Cotton,7722,10544,2086,North America,7.13
+Maize,972,1307,429,South America,5.08
+Rice,2010,2777,979,Africa,4.43
+Wheat,1472,2216,862,Africa,4.62
+Wheat,1202,1497,668,North America,4.64
+Wheat,1324,1563,697,South America,1.59
+Maize,1188,1538,477,Asia,1.62
+Maize,911,1094,371,Europe,6.32
+Wheat,1080,1433,580,Europe,7.95
+Cotton,7531,11060,2077,South America,0.71
+Rice,2158,2639,884,Africa,4.13
+Rice,1485,2037,724,Europe,2.87
+Wheat,1410,1831,700,Asia,1.99
+Wheat,1363,1910,757,Asia,3.19
+Cotton,7775,11155,2301,North America,7.2
+Maize,896,1114,393,Europe,3.19
+Rice,2123,2758,1034,Africa,2.88
+Cotton,7636,10082,2094,North America,9.61
+Cotton,10284,13773,2696,Africa,1.7
+Cotton,7745,12084,2175,South America,2.34
+Wheat,999,1485,588,Europe,6.18
+Wheat,1178,1640,655,South America,1.01
+Rice,2024,2927,984,Africa,3.28
+Cotton,8093,10227,2279,North America,9.16
+Rice,1515,2220,787,North America,9.34
+Rice,1894,2605,1021,Africa,4.82
+Maize,866,1234,412,Europe,2.72
+Wheat,1113,1637,613,Europe,9.05
+Maize,860,1232,419,Europe,3.49
+Wheat,1225,1914,696,Asia,0.96
+Cotton,7601,9478,2064,Europe,8.62
+Maize,1153,1519,574,Africa,5.57
+Rice,1397,1934,728,Europe,3.39
+Maize,1048,1279,462,South America,1.6
+Wheat,1191,1601,717,North America,7.9
+Rice,1540,2311,839,South America,6.86
+Wheat,1055,1414,564,Europe,7.47
+Rice,1601,2295,723,North America,5.01
+Wheat,1632,2121,858,Africa,7.41
+Cotton,7040,11919,2040,North America,9.52
+Maize,958,1284,468,South America,1.43
+Maize,917,1268,408,North America,1.41
+Rice,1425,1954,691,Europe,9.4
+Cotton,8369,11068,1991,North America,8.5
+Maize,1255,1537,613,Africa,0.66
+Cotton,7179,10824,2113,North America,2.96
+Cotton,7063,9531,1938,Europe,4.15
+Cotton,6439,10714,2036,Europe,6.9
+Wheat,1289,1516,722,South America,5.91
+Cotton,7338,9497,1848,Europe,5.75
+Maize,1183,1562,474,Asia,7.54
+Wheat,1382,1821,787,Asia,5.15
+Rice,2014,2563,1078,Africa,1.98
+Cotton,10486,13519,2716,Africa,8.61
+Wheat,1118,1796,613,South America,3.7
+Maize,1120,1352,486,Asia,3.01
+Cotton,8215,12009,2124,North America,2.56
+Rice,1790,2203,822,Asia,6.48
+Maize,1089,1240,470,South America,4.37
+Rice,1920,2248,832,Asia,8.86
+Wheat,1236,1779,714,Asia,6.88
+Cotton,7830,10313,2299,North America,1.34
+Maize,1043,1421,466,South America,3.33
+Wheat,1124,1444,658,Europe,3.14
+Maize,993,1324,440,North America,5.22
+Wheat,1496,2280,915,Africa,5.68
+Cotton,8448,10714,2028,South America,5.43
+Maize,984,1250,481,South America,6.12
+Wheat,1152,1632,630,North America,1.58
+Rice,1488,1836,751,Europe,9.17
+Wheat,1269,1751,671,South America,7.06
+Wheat,1130,1586,551,Europe,3.03
+Wheat,1058,1403,652,Europe,1.49
+Cotton,8055,11011,2178,Asia,3.54
+Cotton,7569,9879,2038,Europe,2.09
+Wheat,1321,1488,623,South America,8.23
+Cotton,6494,10851,1932,Europe,3.51
+Wheat,1311,1570,621,South America,6.68
+Maize,1099,1539,514,Asia,6.14
+Rice,1784,2074,695,South America,5.82
+Cotton,8209,11950,2278,North America,3.55
+Maize,938,1298,482,South America,3.79
+Wheat,1512,2252,831,Africa,8.61
+Maize,853,1311,396,Europe,0.94
+Maize,1041,1436,477,North America,2.78
+Maize,1310,1575,597,Africa,2.98
+Maize,985,1384,411,South America,5.05
+Wheat,1133,1688,654,South America,0.78
+Wheat,1185,1510,565,Europe,5.8
+Wheat,1142,1535,719,South America,5.67
+Wheat,1138,1581,646,Europe,5.51
+Maize,824,1207,408,Europe,6.48
+Cotton,7957,11090,2014,North America,7.35
+Wheat,1311,1555,595,North America,9.66
+Rice,2079,2619,1052,Africa,6.83
+Wheat,1212,1671,753,Asia,9.64
+Wheat,1369,1634,727,Asia,8.36
+Rice,1497,1994,713,Europe,7.65
+Rice,1684,2217,824,Asia,3.19
+Rice,1640,2572,891,Asia,2.71
+Cotton,10564,13609,2804,Africa,7.11
+Wheat,1095,1548,618,South America,5.93
+Maize,1092,1462,480,Asia,2.57
+Cotton,6547,10975,1873,Europe,5.71
+Cotton,8244,11962,2201,North America,0.92
+Wheat,1246,1905,656,Asia,2.07
+Rice,2181,2846,939,Africa,8.48
+Maize,1048,1384,429,North America,9.31
+Maize,1027,1356,484,Asia,7.8
+Cotton,9178,11439,2228,Asia,4.12
+Wheat,1198,1519,629,Europe,1.31
+Cotton,7181,10749,2020,Europe,4.05
+Wheat,1311,1579,687,North America,7.05
+Maize,961,1359,414,South America,1.4
+Rice,1496,2054,674,Europe,7.16
+Wheat,1652,1961,901,Africa,3.3
+Rice,1946,2336,784,Asia,9.47
+Rice,1598,1804,652,Europe,9.61
+Maize,1082,1382,506,Asia,6.19
+Rice,1615,2076,803,South America,5.72
+Rice,2094,3074,1071,Africa,8.59
+Cotton,7751,10609,2156,South America,0.96
+Cotton,10684,13094,3064,Africa,7.25
+Wheat,1272,1510,631,South America,4.99
+Wheat,1175,1754,695,North America,5.7
+Maize,971,1300,468,South America,1.99
+Rice,1687,2136,771,South America,1.39
+Maize,1042,1406,452,South America,3.24
+Wheat,1203,1615,658,North America,5.75
+Cotton,9550,13864,2741,Africa,2.82
+Maize,981,1216,413,Europe,8.26
+Maize,1077,1424,447,Asia,6.42
+Rice,1926,3068,1062,Africa,0.73
+Wheat,1020,1382,588,Europe,9.97
+Maize,900,1360,457,North America,1.06
+Maize,1236,1653,610,Africa,1.91
+Rice,2310,2552,1064,Africa,3.28
+Maize,1034,1351,499,Asia,1.39
+Maize,898,1311,463,North America,7.11
+Cotton,10750,13780,2776,Africa,3.16
+Wheat,1190,1592,625,North America,8.65
+Wheat,1002,1548,552,Europe,5.88
+Maize,957,1416,396,South America,4.81
+Wheat,1102,1774,618,South America,8.27
+Rice,1612,2039,762,Europe,9.82
+Wheat,1649,2091,844,Africa,7.55
+Maize,841,1181,392,Europe,1.09
+Rice,1796,2369,829,North America,0.68
+Cotton,9112,13629,2573,Africa,8.22
+Rice,1551,2371,763,North America,7.18
+Wheat,1197,1786,633,North America,3.31
+Maize,829,1094,394,Europe,7.91
+Cotton,9283,12758,3031,Africa,9.88
+Cotton,8799,12146,2311,Asia,3.71
+Cotton,8076,11984,2282,Asia,2.2
+Wheat,1689,2226,809,Africa,1.16
+Rice,1700,2222,891,Asia,5.8
+Rice,2230,2830,1034,Africa,8.57
+Maize,1179,1539,517,Asia,6.6
+Wheat,1667,2095,838,Africa,7.9
+Rice,1553,1992,696,North America,1.21
+Wheat,1304,1765,726,South America,1.69
+Wheat,1419,1755,756,Asia,1.83
+Rice,1765,2511,922,Asia,2.63
+Wheat,1125,1523,638,South America,1.46
+Maize,1016,1360,425,North America,1.26
+Maize,1020,1443,463,Asia,7.18
+Cotton,7167,10221,2371,North America,6.56
+Wheat,1273,1713,744,Asia,4.76
+Cotton,7841,10894,2114,South America,4.3
+Maize,1281,1582,571,Africa,3.97
+Wheat,1157,1512,652,North America,4.82
+Cotton,9066,14734,3033,Africa,4.04
+Maize,925,1417,397,North America,1.65
+Rice,1555,1913,687,Europe,5.89
+Wheat,1234,1607,605,South America,0.68
+Cotton,7617,12178,2383,Asia,3.86
+Wheat,1152,1640,608,South America,7.04
+Wheat,1147,1530,608,South America,6.09
+Wheat,1267,1610,646,North America,7.39
+Rice,1678,2302,757,North America,0.67
+Cotton,8497,12686,2551,Asia,4.05
+Maize,1171,1825,515,Africa,2.95
+Rice,1684,2057,795,North America,5.71
+Cotton,8185,11082,1995,North America,7.77
+Rice,1915,2337,830,Asia,1.07
+Wheat,1136,1789,636,North America,5.34
+Wheat,1127,1548,594,Europe,5.07
+Cotton,9019,12057,2524,Asia,8.81
+Cotton,8872,12430,2308,Asia,8.35
+Wheat,1115,1673,640,North America,1.97
+Maize,1089,1519,523,Asia,4
+Wheat,1315,1912,736,Asia,5.27
+Wheat,1129,1746,682,North America,6.68
+Wheat,1556,1938,869,Africa,5.97
+Cotton,7848,10909,2128,South America,4.7
+Rice,1769,2271,708,South America,2.93
+Maize,973,1283,439,Europe,0.95
+Wheat,1121,1417,600,Europe,2.94
+Cotton,8754,13195,2583,Asia,7.08
+Cotton,7140,11908,2019,North America,1.02
+Rice,1932,2287,830,Asia,7.83
+Rice,1504,2185,720,South America,8.11
+Maize,942,1283,418,Europe,8.44
+Maize,980,1310,456,North America,1.82
+Rice,1631,1830,750,Europe,4.84
+Rice,1761,2486,778,Asia,4.52
+Cotton,7364,10634,2256,North America,8.33
+Cotton,7105,9902,1824,Europe,2.62
+Maize,854,1300,426,Europe,7.77
+Cotton,7771,11766,2119,South America,5.6
+Rice,1540,1841,724,Europe,9.36
+Wheat,1534,2200,880,Africa,7.33
+Cotton,7346,9110,2125,Europe,2.62
+Wheat,1146,1595,690,North America,3.56
+Wheat,1129,1525,707,South America,4.44
+Wheat,1172,1703,671,South America,7.55
+Cotton,8104,10365,2195,North America,9.75
+Maize,905,1125,365,Europe,8.59
+Rice,1934,2882,939,Africa,3.62
+Maize,938,1166,420,Europe,2.35
+Cotton,7534,9473,1844,Europe,4.41
+Rice,1740,2343,843,North America,9.01
+Maize,921,1397,422,North America,7.48
+Rice,1744,2283,741,South America,6.68
+Wheat,1584,2100,887,Africa,2.52
+Cotton,7274,10005,2398,North America,6.84
+Wheat,1084,1473,581,Europe,3.72
+Cotton,7258,11717,2263,South America,6.01
+Wheat,1189,1423,575,Europe,9.9
+Cotton,8860,13720,2690,Africa,3.49
+Rice,1806,2081,803,North America,5.1
+Maize,825,1181,366,Europe,4.27
+Cotton,8736,11214,2235,Asia,8.47
+Cotton,7200,11094,2282,North America,4.33
+Cotton,6978,11002,2238,South America,6.21
+Wheat,1246,1805,656,North America,8.6
+Wheat,1540,1941,824,Africa,6.9
+Cotton,9186,15054,2847,Africa,7.97
+Wheat,1163,1747,672,South America,8.44
+Maize,1089,1262,474,North America,1.73
+Rice,1958,2503,877,Asia,1.24
+Maize,1078,1435,424,North America,6.58
+Rice,1896,2639,1061,Africa,9.74
+Wheat,1447,1926,762,Asia,1.69
+Maize,945,1153,427,Europe,2.37
+Wheat,1654,1894,919,Africa,2.5
+Rice,1657,2406,829,North America,7.57
+Maize,941,1403,411,South America,8.14
+Wheat,1258,1620,595,North America,4.45
+Rice,1595,2018,750,Europe,7.09
+Wheat,1262,1754,770,Asia,3.34
+Rice,1773,2103,693,South America,1.85
+Rice,1735,2189,799,South America,6.51
+Cotton,9115,14727,2765,Africa,3.24
+Cotton,8209,11617,2406,North America,7.8
+Rice,1820,2553,757,Asia,7.57
+Rice,1417,1897,744,Europe,7.72
+Wheat,1207,1650,630,South America,8.51
+Maize,865,1119,406,Europe,7.85
+Cotton,8934,12936,2658,Africa,1.72
+Cotton,8503,11672,2434,Asia,8.54
+Wheat,1430,1972,907,Africa,8.38
+Wheat,1108,1725,695,North America,6.59
+Wheat,1207,1582,627,North America,2.8
+Cotton,8002,10172,2007,North America,1.16
+Wheat,1419,1965,771,Asia,9.91
+Cotton,7320,11014,2289,North America,4.13
+Cotton,7009,10432,2248,North America,4.15
+Wheat,1168,1765,601,South America,4.16
+Maize,1074,1322,443,South America,4.63
+Maize,970,1277,413,North America,9.38
+Rice,1752,2417,811,North America,9.15
+Maize,1020,1373,426,South America,6.44
+Maize,897,1372,459,North America,7.48
+Maize,1199,1744,613,Africa,8.06
+Maize,977,1207,408,South America,7.64
+Rice,1730,2352,783,South America,5.42
+Maize,1004,1474,512,Asia,7.28
+Rice,1771,2131,709,South America,5.21
+Rice,1547,2120,746,North America,1.67
+Rice,2055,2531,1043,Africa,1.95
+Cotton,7951,11808,2215,North America,4.7
+Wheat,1248,1599,602,North America,2.27
+Cotton,7191,9681,2171,Europe,5.27
+Rice,1804,2209,830,South America,5.09
+Cotton,7788,11343,2043,North America,2.78
+Rice,2234,2615,916,Africa,5.99
+Cotton,8307,13078,2587,Asia,9.63
+Rice,2029,2980,995,Africa,4.17
+Rice,1976,2598,912,Asia,5.58
+Wheat,1388,2231,849,Africa,0.87
+Rice,1909,2892,912,Africa,9.57
+Maize,1037,1282,477,South America,9.77
+Wheat,1124,1658,620,South America,4.55
+Wheat,1189,1764,595,North America,7.91
+Rice,1939,2376,864,Asia,7.9
+Maize,973,1287,475,North America,8.57
+Wheat,1500,2003,757,Africa,0.73
+Rice,2192,2969,985,Africa,7.9
+Wheat,1563,2230,841,Africa,5.09
+Maize,1001,1353,399,South America,7.42
+Rice,1573,2072,655,Europe,4.05
+Maize,889,1169,385,Europe,7.09
+Maize,992,1388,443,North America,4.08
+Wheat,1590,2186,823,Africa,0.91
+Maize,1138,1724,516,Africa,8.01
+Wheat,1638,2067,819,Africa,1.09
+Maize,1050,1429,489,Asia,1.78
+Maize,938,1320,388,Europe,6.8
+Rice,1395,1924,712,Europe,8.53
+Rice,1543,2112,730,Europe,1.36
+Cotton,8098,10944,2520,Asia,2.85
+Wheat,1584,2270,761,Africa,3.73
+Wheat,1284,1801,679,South America,4.75
+Wheat,1172,1526,608,South America,3.89
+Rice,2248,2661,925,Africa,7.05
+Rice,1768,2093,823,South America,2.59
+Wheat,1133,1382,563,Europe,9.2
+Cotton,7888,11258,2180,North America,6.84
+Cotton,9121,15215,2970,Africa,4.22
+Wheat,1628,1944,778,Africa,7.25
+Rice,1439,2045,660,Europe,0.86
+Wheat,1311,1648,772,Asia,6.1
+Maize,1198,1716,596,Africa,5.11
+Wheat,1590,1993,912,Africa,8.38
+Wheat,1298,1602,663,South America,3.27
+Cotton,8159,11405,2029,South America,3.44
+Wheat,1268,1789,623,South America,5.4
+Cotton,8076,12404,2635,Asia,3.42
+Rice,1419,2171,678,Europe,3.47
+Cotton,7885,10070,2318,South America,1.4
+Cotton,8318,11818,2076,North America,4.09
+Wheat,1158,1683,653,South America,4.43
+Maize,933,1296,482,South America,0.98
+Maize,928,1225,411,South America,5.99
+Cotton,8457,11042,2033,South America,6.1
+Cotton,7388,10892,1884,Europe,9.81
+Rice,1598,1938,730,Europe,7.15
+Wheat,1145,1799,699,North America,7.95
+Wheat,1117,1630,631,Europe,7.55
+Cotton,8329,12708,2628,Asia,3.76
+Rice,1904,2515,859,Asia,5.19

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Water Footprint Calculator - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('image/mp.jpeg'); /* Replace with your background image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Wide container with subtle transparent background for readability */
+    .content-wrapper {
+      background-color: rgba(0, 0, 0, 0.35); /* subtle dark transparent */
+      padding: 40px 60px;
+      border-radius: 12px;
+      max-width: 1100px;  /* Wider container */
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-sizing: border-box;
+    }
+    h1, h3, p, ul.list-group-item {
+      color: white;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    }
+    ul.list-group-item {
+      background: transparent;
+      border: none;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: left;
+      margin-bottom: 1.2rem;
+      font-size: 1.15rem;
+      line-height: 1.5;
+    }
+    /* Colored strong text for water types */
+    .blue-water strong {
+      color: #00BFFF; /* Deep Sky Blue */
+    }
+    .green-water strong {
+      color: #32CD32; /* Lime Green */
+    }
+    .grey-water strong {
+      color: #DAA520; /* Goldenrod */
+    }
+    .btn-primary {
+      min-width: 140px;
+      font-size: 1.1rem;
+      transition: opacity 0.3s ease;
+    }
+    .btn-primary:hover {
+      opacity: 0.9;
+    }
+    /* Responsive for smaller screens */
+    @media (max-width: 768px) {
+      .content-wrapper {
+        padding: 30px 20px;
+        max-width: 100%;
+        max-height: 100vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content-wrapper">
+    <h1 class="display-4 mb-4">
+      <i class="fas fa-tint me-2"></i>Smart Water Footprint Calculator
+    </h1>
+    <p class="lead mb-5">
+      Understand and optimize your water usage in agriculture by analyzing the water footprint — blue, green, and grey water.
+    </p>
+
+    <div class="mb-5 text-start">
+      <h3>What is Blue, Green, and Grey Water?</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item blue-water">
+          <strong>Blue Water:</strong> Freshwater sourced from rivers, lakes, and aquifers used for irrigation, industrial, and domestic purposes. Overuse can cause water scarcity and ecosystem damage.
+        </li>
+        <li class="list-group-item green-water">
+          <strong>Green Water:</strong> Rainwater stored in soil and used directly by plants. Vital for rainfed agriculture, it is the natural soil moisture supporting crops.
+        </li>
+        <li class="list-group-item grey-water">
+          <strong>Grey Water:</strong> The amount of freshwater required to dilute pollutants from agricultural activities to meet water quality standards, reflecting water pollution impact.
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <a href="login.html" class="btn btn-primary">
+        <i class="fas fa-sign-in-alt me-2"></i>Login
+      </a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
