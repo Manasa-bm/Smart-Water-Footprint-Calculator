@@ -20,8 +20,6 @@ Developed as part of an academic mini project, the tool calculates water usage b
 
 ![Homepage](output.png)
 
-> Make sure `img1.png` is in the same folder as this `README.md` file  
-> Or update the path if your image is in a subfolder like `images/`
 
 ---
 
